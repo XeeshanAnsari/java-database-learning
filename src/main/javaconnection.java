@@ -22,7 +22,7 @@ public class javaconnection {
         try{
             Class.forName("org.sqlite.JDBC");
             Connection conn=DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Xeeshan\\Documents\\NetBeansProjects\\project123\\project123.sqlite");
-           JOptionPane.showMessageDialog(null, "Connection established");
+          /* JOptionPane.showMessageDialog(null, "Connection established"); */
             return conn;
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, e);
